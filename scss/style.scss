@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
 @import 'componentes/hero.scss';
+@import 'componentes/portfolio.scss';
+@import 'componentes/service.scss';
+@import 'componentes/contact.scss';
+@import 'componentes/footer.scss';
+
+
+
+
+
 
 body{
 
@@ -10,6 +19,15 @@ body{
 
 }
 
+.container{
+    width: 100%;
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns:  minmax(auto , 1fr);
+    margin: 0%;
+
+}
 
 
 
