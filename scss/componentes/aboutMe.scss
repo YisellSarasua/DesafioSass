@@ -1,0 +1,54 @@
+.aboutMe{
+    .aboutMe_portada{
+
+        height: 566px;
+   
+    background-image:url("../Multimedia/Img/AboutMePortada.jpg");
+
+    }
+
+    .aboutMe_description{
+
+        .Ido{
+
+            display:flex;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 100px;
+
+            h3{
+                width: 50%;
+                height: auto;
+                text-align: center;
+            }
+
+            p{
+                width: 50%;
+                height: auto;
+
+            }
+
+        }
+
+        .about{
+
+            display:flex;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 100px;
+
+            h3{
+                width: 50%;
+                height: auto;
+                text-align: center;
+            }
+
+            p{
+                width: 50%;
+                height: auto;
+            }
+        }
+
+    }
+
+}

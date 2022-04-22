@@ -4,6 +4,10 @@
 @import 'componentes/service.scss';
 @import 'componentes/contact.scss';
 @import 'componentes/footer.scss';
+@import 'componentes/clients.scss';
+@import 'componentes/aboutMe.scss';
+
+
 
 
 
@@ -27,6 +31,35 @@ body{
     grid-template-columns:  minmax(auto , 1fr);
     margin: 0%;
 
+}
+
+/* esto deberia pasar a variables pero tengo que ver que me conviene usar*/
+.title{
+    font-family:'Ubuntu', sans-serif;
+    font-size:50px;
+    font-weight: bold;
+    color:#505D68 ;
+}
+
+.subtitle{
+    font-family:'Ubuntu', sans-serif;
+    font-size:21px;
+    color:#505D68;
+    font-weight:Bold;
+}
+
+p{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #A1AEB7;
+    font-weight:normal;
+}
+
+li{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color:#505D68;
+    font-weight: Bold;
 }
 
 
