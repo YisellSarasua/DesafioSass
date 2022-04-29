@@ -6,6 +6,8 @@
 @import 'componentes/footer.scss';
 @import 'componentes/clients.scss';
 @import 'componentes/aboutMe.scss';
+@import 'base/colors';
+
 
 
 
@@ -38,27 +40,27 @@ body{
     font-family:'Ubuntu', sans-serif;
     font-size:50px;
     font-weight: bold;
-    color:#505D68 ;
+    color:$grisTitle ;
 }
 
 .subtitle{
     font-family:'Ubuntu', sans-serif;
     font-size:21px;
-    color:#505D68;
+    color:$grisSubtitle;
     font-weight:Bold;
 }
 
 p{
     font-family:'Ubuntu', sans-serif;
     font-size: 14px;
-    color: #A1AEB7;
+    color: $grisParagraph;
     font-weight:normal;
 }
 
 li{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
-    color:#505D68;
+    color:$grisLinks;
     font-weight: Bold;
 }
 
