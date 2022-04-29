@@ -25,6 +25,12 @@
   padding-right: 30%;
 }
 
+/* placeholder = % + nombre {} */
+.portfolioProjects .p09, .portfolioProjects .p08, .portfolioProjects .p07, .portfolioProjects .p06, .portfolioProjects .p05, .portfolioProjects .p04, .portfolioProjects .p03, .portfolioProjects .p02, .portfolioProjects .p01 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .portfolio {
   width: 100%;
   height: 437px;
@@ -125,48 +131,30 @@
 }
 .portfolioProjects .p01 {
   background-image: url("../Multimedia/Img/Work_01.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .portfolioProjects .p02 {
   background-image: url("../Multimedia/Img/Work_02.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .portfolioProjects .p03 {
   background-image: url("../Multimedia/Img/Work_03.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .portfolioProjects .p04 {
   background-image: url("../Multimedia/Img/Work_04.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .portfolioProjects .p05 {
   background-image: url("../Multimedia/Img/Work_05.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .portfolioProjects .p06 {
   background-image: url("../Multimedia/Img/Work_06.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .portfolioProjects .p07 {
   background-image: url("../Multimedia/Img/Work_07.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .portfolioProjects .p08 {
   background-image: url("../Multimedia/Img/Work_08.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .portfolioProjects .p09 {
   background-image: url("../Multimedia/Img/Work_09.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .service {
@@ -299,6 +287,12 @@
 .aboutMe .aboutMe_description .about p {
   width: 50%;
   height: auto;
+}
+
+/* placeholder = % + nombre {} */
+.portfolioProjects .p01, .portfolioProjects .p02, .portfolioProjects .p03, .portfolioProjects .p04, .portfolioProjects .p05, .portfolioProjects .p06, .portfolioProjects .p07, .portfolioProjects .p08, .portfolioProjects .p09 {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body * {

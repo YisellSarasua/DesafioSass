@@ -1,4 +1,6 @@
 @import "../base/colors";
+@import "../base/extends";
+
 .portfolio{
 
     width: 100%;
@@ -117,48 +119,39 @@
     }
     .p01{
         background-image: url("../Multimedia/Img/Work_01.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        @extend %portfoliocard;
     }
     .p02{
         background-image: url("../Multimedia/Img/Work_02.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        @extend %portfoliocard;
     }
     .p03{
         background-image: url("../Multimedia/Img/Work_03.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        @extend %portfoliocard;
     }
     .p04{
         background-image: url("../Multimedia/Img/Work_04.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        @extend %portfoliocard;
     }
     .p05{
         background-image: url("../Multimedia/Img/Work_05.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        @extend %portfoliocard;
     } 
     .p06{
         background-image: url("../Multimedia/Img/Work_06.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        @extend %portfoliocard;
     }
     .p07{
         background-image: url("../Multimedia/Img/Work_07.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        @extend %portfoliocard;
     }
     .p08{
         background-image: url("../Multimedia/Img/Work_08.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        @extend %portfoliocard;
     }
     .p09{
         background-image: url("../Multimedia/Img/Work_09.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        @extend %portfoliocard;
     }
 
 }
