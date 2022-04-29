@@ -1,5 +1,8 @@
 @import "../base/colors";
 @import "../base/extends";
+@import "../base/mixins";
+
+
 
 .portfolio{
 
@@ -79,19 +82,24 @@
         justify-content: center;
         padding-left: 10%;
         padding-right: 10%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30%;
+       @include tipogrfia ('Ubuntu',30%, transparent, normal,700)
+    
+        
+    
+      
+       
+       
+      
         line-height: 21px;
-        color: transparent; 
+        
 
         &:hover{
-            font-family: 'Ubuntu';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 200%;
-            color:#ecf010;
+            @include tipogrfia ('Ubuntu',200%, $yelow,normal,700)
+            
+            
+           
+           
+            
         }
     }
     h4{

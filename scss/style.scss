@@ -8,6 +8,9 @@
 @import 'componentes/aboutMe.scss';
 @import 'base/colors';
 @import "base/extends";
+@import 'base/mixins';
+
+
 
 
 
@@ -38,6 +41,8 @@ body{
 
 /* esto deberia pasar a variables pero tengo que ver que me conviene usar*/
 .title{
+
+ 
     font-family:'Ubuntu', sans-serif;
     font-size:50px;
     font-weight: bold;
@@ -45,6 +50,7 @@ body{
 }
 
 .subtitle{
+   
     font-family:'Ubuntu', sans-serif;
     font-size:21px;
     color:$grisSubtitle;

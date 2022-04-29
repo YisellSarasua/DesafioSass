@@ -34,7 +34,7 @@
 .portfolio {
   width: 100%;
   height: 437px;
-  background-color: white;
+  background-color: rgba(250, 247, 247, 0.953);
   grid-template-rows: repeat(3, 1fr);
 }
 .portfolio h2 {
