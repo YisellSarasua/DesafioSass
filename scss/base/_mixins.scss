@@ -1,7 +1,7 @@
 @mixin tipogrfia ($fontFamily, $fontSize, $fontColor, $fontStyle, $fontWeight) {
         font-family: $fontFamily;
-        font-style: $fontSize;
-        font-size: $fontColorr;
+        font-size: $fontSize;
+        color: $fontColor;
         font-style: $fontStyle;
         font-weight: $fontWeight;
   

@@ -95,18 +95,18 @@
   padding-left: 10%;
   padding-right: 10%;
   font-family: "Ubuntu";
+  font-size: 30%;
+  color: transparent;
   font-style: normal;
   font-weight: 700;
-  font-size: 30%;
   line-height: 21px;
-  color: transparent;
 }
 .portfolioProjects h2:hover {
   font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 700;
   font-size: 200%;
   color: #ecf010;
+  font-style: normal;
+  font-weight: 700;
 }
 .portfolioProjects h4 {
   display: flex;
@@ -115,19 +115,20 @@
   padding-right: 10%;
   align-items: flex-start;
   justify-content: center;
+  line-height: 21px;
   font-family: "Ubuntu";
+  font-size: 30%;
+  color: transparent;
   font-style: normal;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 21px;
-  color: transparent;
   text-align: justify;
 }
 .portfolioProjects h4:hover {
   font-family: "Ubuntu";
-  font-style: normal;
-  font-size: 12px;
+  font-size: 12PX;
   color: #ecf010;
+  font-style: normal;
+  font-weight: 700;
 }
 .portfolioProjects .p01 {
   background-image: url("../Multimedia/Img/Work_01.jpg");
@@ -244,14 +245,24 @@
 }
 
 .clients {
-  width: 100%;
+  width: 80%;
   height: 670px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000000;
+  align-items: center;
 }
 .clients h2 {
-  display: flex;
+  border: 1px solid black;
   height: 40%;
   align-items: center;
   justify-content: center;
+}
+.clients .LogosClientes {
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
 }
 
 .aboutMe .aboutMe_portada {

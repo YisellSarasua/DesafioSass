@@ -1,14 +1,26 @@
 @import "../base/colors";
 .clients{
 
-    width: 100%;
+    width: 80%;
     height: 670px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000000;
+    align-items: center;
+    
     
     h2{
-        display: flex;
+        border: 1px solid black;
         height: 40%;
         align-items: center;
         justify-content: center;
 
+    }
+
+    .LogosClientes{
+        border: 1px solid black;
+        align-items: center;
+        justify-content: center;
+        height: 40%;
     }
 }

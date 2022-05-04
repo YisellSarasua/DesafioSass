@@ -74,6 +74,7 @@
         grid-column: span 2;
         grid-row: span 2;
     }
+
     h2{
 
         display: flex;
@@ -82,26 +83,17 @@
         justify-content: center;
         padding-left: 10%;
         padding-right: 10%;
-       @include tipogrfia ('Ubuntu',30%, transparent, normal,700)
-    
-        
-    
-      
-       
-       
+        @include tipogrfia ('Ubuntu',30%, $transparente,normal,700);
       
         line-height: 21px;
         
 
         &:hover{
-            @include tipogrfia ('Ubuntu',200%, $yelow,normal,700)
-            
-            
-           
-           
+            @include tipogrfia ('Ubuntu',200%, $yelow,normal,700);
             
         }
     }
+    
     h4{
 
         display: flex;
@@ -110,19 +102,13 @@
         padding-right: 10%;
         align-items: flex-start;
         justify-content: center;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size:12px;
+      
         line-height: 21px;
-        color: transparent;  
+        @include tipogrfia ('Ubuntu',30%, $transparente, normal,700);
         text-align: justify;
 
         &:hover{
-            font-family: 'Ubuntu';
-            font-style: normal;
-            font-size: 12px;
-            color:#ecf010;
+            @include tipogrfia ('Ubuntu',12PX, $yelow,normal,700);
         }
     }
     .p01{
