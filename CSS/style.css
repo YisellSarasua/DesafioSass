@@ -78,7 +78,7 @@
 
 .portfolioProjects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-auto-rows: minmax(300px, auto);
   gap: 5px;
   grid-auto-flow: dense;
@@ -86,10 +86,6 @@
 .portfolioProjects .big {
   grid-column: span 2;
   grid-row: span 2;
-}
-.portfolioProjects .small {
-  border: 1px solid yellow;
-  grid-column: span 1;
 }
 .portfolioProjects h2 {
   display: flex;
@@ -323,6 +319,82 @@
 .aboutMe .aboutMe_description .about p {
   width: 50%;
   height: auto;
+}
+
+/* placeholder = % + nombre {} */
+.portfolioProjects .p01, .portfolioProjects .p02, .portfolioProjects .p03, .portfolioProjects .p04, .portfolioProjects .p05, .portfolioProjects .p06, .portfolioProjects .p07, .portfolioProjects .p08, .portfolioProjects .p09 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects .projectHero {
+  width: 100%;
+  height: 675px;
+  display: flex;
+  float: left;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.projects .projectHero .projectTitle {
+  width: 50%;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 10%;
+}
+.projects .projectHero .projectTitle h2 {
+  margin-top: 20%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+.projects .projectHero .projectAbout {
+  width: 50%;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 10%;
+}
+.projects .projectHero .projectAbout .projectDescription {
+  width: 100%;
+  margin-top: 20%;
+  height: auto;
+  text-align: justify;
+}
+.projects .projectHero .projectAbout .projectKeyword {
+  margin-top: 20px;
+  display: flex;
+}
+.projects .projectHero .projectAbout .projectKeyword h3 {
+  text-align: start;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  color: #505D68;
+  font-style: bold;
+  font-weight: 600;
+}
+.projects .projectHero .projectAbout .projectInteraction {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.projects .projectHero .projectAbout .projectInteraction div {
+  width: 50px;
+}
+@media screen and (max-width: 400px) {
+  .projects .projectHero {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .projects .projectHero .projectTitle {
+    width: 100%;
+  }
+  .projects .projectHero .projectAbout {
+    width: 100%;
+  }
 }
 
 /* placeholder = % + nombre {} */

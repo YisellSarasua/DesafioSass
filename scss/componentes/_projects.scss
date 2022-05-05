@@ -1,0 +1,123 @@
+@import "../base/colors";
+@import "../base/extends";
+@import "../base/mixins";
+
+
+.projects{
+
+    .projectHero{
+
+        width: 100%;
+        height: 675px;
+        
+        display: flex;
+        float: left;
+        flex-direction: row;
+        margin-top: 50px;
+        
+
+
+     
+
+        
+    
+        .projectTitle{
+            
+            width: 50%;
+            margin-right: 3%;
+            margin-left: 3%;
+            margin-bottom: 10%;
+
+            h2{
+                margin-top: 20%;
+                margin-right: 20%;
+                margin-left: 20%;
+                margin-bottom: 10%;
+                
+                text-align: center;
+            }
+            
+            
+        }
+    
+        .projectAbout{
+            
+            width: 50%;
+          
+            margin-right: 3%;
+            margin-left: 3%;
+            margin-bottom: 10%;
+           
+       
+            
+    
+            .projectDescription{
+                width: 100%;
+                margin-top: 20%;
+                height: auto;
+                text-align: justify;
+                
+
+    
+            }
+    
+            .projectKeyword{
+
+               margin-top: 20px;
+               display: flex;
+
+
+                h3{
+                    
+                    
+                    text-align: start;
+                    @include tipogrfia ('Ubuntu', 16px, $grisSubtitle,bold,600);
+                }
+    
+            }
+    
+            .projectInteraction{
+                width: 100%;
+                height: 50px;
+                margin-top: 10px;
+                
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                
+                div{
+                    width: 50px;
+                    
+                }
+    
+            }
+    
+        }
+
+
+       
+    }
+    @media screen and (max-width: 400px) {
+
+        .projectHero{
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+    
+        }
+        .projectHero .projectTitle{
+            
+            width: 100%;
+            
+        }
+    
+        .projectHero .projectAbout{
+          
+            width: 100%;
+            
+        }
+    
+    }
+    
+
+}
