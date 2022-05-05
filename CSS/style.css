@@ -396,6 +396,10 @@
     width: 100%;
   }
 }
+.projects .projectImg img {
+  width: 100%;
+  background-color: #505D68;
+}
 
 /* placeholder = % + nombre {} */
 .portfolioProjects .p01, .portfolioProjects .p02, .portfolioProjects .p03, .portfolioProjects .p04, .portfolioProjects .p05, .portfolioProjects .p06, .portfolioProjects .p07, .portfolioProjects .p08, .portfolioProjects .p09 {

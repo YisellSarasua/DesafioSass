@@ -14,12 +14,7 @@
         float: left;
         flex-direction: row;
         margin-top: 50px;
-        
-
-
-     
-
-        
+         
     
         .projectTitle{
             
@@ -119,5 +114,15 @@
     
     }
     
+    .projectImg{
+        img{
+            width: 100%;
+            background-color: #505D68;
+        }
+        
+    
+    }
+
+
 
 }
