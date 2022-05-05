@@ -111,18 +111,108 @@
             width: 100%;
             
         }
-    
+
+       
     }
     
     .projectImg{
         img{
             width: 100%;
-            background-color: #505D68;
+            background: #505D68;
+            
         }
         
     
     }
 
+    .projectTeam{
+        width: 100%;
+        min-height: 675px;
+        
+        .title{
+            margin-top: 30px;
+            text-align: center;
+        }
+        .text{
+            
+            margin-top: 30px;
+            padding-left: 20%;
+            padding-right: 20%;
+            text-align: center;
+           
+
+        }
+        .team01{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        
+            .card{
+                margin-top: 50px;
+                margin-right: 5px;
+                width: 25%;
+                min-height: 381px;
+                justify-content: center;
+                align-items: center;
+                
+    
+                .avatar{
+                    width: 123px;
+                    height: 123px;
+                    border-radius: 50%;
+                    border: 3px solid yellow;
+                    
+                    img{
+                        width: 100%;
+                    }
+                    
+                }
+    
+                .nombre{
+                    min-height: 20px;
+                    margin-top: 30px;
+                    
+                    @include tipogrfia ('Ubuntu', 16px, $grisSubtitle,bold,700);
+                    text-align: center;
+                    
+                }
+    
+                .profesion{
+                    margin-bottom: 30px;
+                    @include tipogrfia ('Ubuntu', 14px, $grisSubtitle,bold,700);
+                    text-align: center;
+                }
+    
+                .description{
+                    @include tipogrfia ('Ubuntu', 12px, $grisParagraph,normal,400);
+                    text-align: center;
+                    
+                }
+    
+    
+            }
+
+        }
+
+      
+
+      
+    }
+
+    @media screen and (max-width: 400px){
+
+        .projectTeam .team01  {
+           width:100%;
+           flex-direction: column;
+          
+       }
+       .projectTeam .team01 .card {
+        width:100%;
+    }
+   }
+    
+
+    
 
 
 }

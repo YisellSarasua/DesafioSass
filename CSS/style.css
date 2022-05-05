@@ -398,7 +398,79 @@
 }
 .projects .projectImg img {
   width: 100%;
-  background-color: #505D68;
+  background: #505D68;
+}
+.projects .projectTeam {
+  width: 100%;
+  min-height: 675px;
+}
+.projects .projectTeam .title {
+  margin-top: 30px;
+  text-align: center;
+}
+.projects .projectTeam .text {
+  margin-top: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+.projects .projectTeam .team01 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.projects .projectTeam .team01 .card {
+  margin-top: 50px;
+  margin-right: 5px;
+  width: 25%;
+  min-height: 381px;
+  justify-content: center;
+  align-items: center;
+}
+.projects .projectTeam .team01 .card .avatar {
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+  border: 3px solid yellow;
+}
+.projects .projectTeam .team01 .card .avatar img {
+  width: 100%;
+}
+.projects .projectTeam .team01 .card .nombre {
+  min-height: 20px;
+  margin-top: 30px;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  color: #505D68;
+  font-style: bold;
+  font-weight: 700;
+  text-align: center;
+}
+.projects .projectTeam .team01 .card .profesion {
+  margin-bottom: 30px;
+  font-family: "Ubuntu";
+  font-size: 14px;
+  color: #505D68;
+  font-style: bold;
+  font-weight: 700;
+  text-align: center;
+}
+.projects .projectTeam .team01 .card .description {
+  font-family: "Ubuntu";
+  font-size: 12px;
+  color: #A1AEB7;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (max-width: 400px) {
+  .projects .projectTeam .team01 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .projects .projectTeam .team01 .card {
+    width: 100%;
+  }
 }
 
 /* placeholder = % + nombre {} */
