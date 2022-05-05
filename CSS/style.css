@@ -383,19 +383,6 @@
 .projects .projectHero .projectAbout .projectInteraction div {
   width: 50px;
 }
-@media screen and (max-width: 400px) {
-  .projects .projectHero {
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-  }
-  .projects .projectHero .projectTitle {
-    width: 100%;
-  }
-  .projects .projectHero .projectAbout {
-    width: 100%;
-  }
-}
 .projects .projectImg img {
   width: 100%;
   background: #505D68;
@@ -463,7 +450,40 @@
   font-weight: 400;
   text-align: center;
 }
+.projects .moreProject {
+  display: flex;
+}
+.projects .moreProject .carousel-inner {
+  width: 100%;
+  max-height: 300px;
+  display: flex;
+  border: 1px solid yellow;
+  justify-items: center;
+  flex-direction: column;
+}
+.projects .moreProject .carousel-inner .carrusel {
+  display: flex;
+  justify-items: center;
+}
+.projects .moreProject .carousel-inner .carrusel .image02 {
+  width: 50%;
+  border: 1px solid rgb(18, 11, 135);
+}
+.projects .moreProject .carousel-inner .carrusel .image02 img {
+  justify-content: center;
+}
 @media screen and (max-width: 400px) {
+  .projects .projectHero {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .projects .projectHero .projectTitle {
+    width: 100%;
+  }
+  .projects .projectHero .projectAbout {
+    width: 100%;
+  }
   .projects .projectTeam .team01 {
     width: 100%;
     flex-direction: column;

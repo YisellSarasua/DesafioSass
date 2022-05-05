@@ -92,29 +92,6 @@
 
        
     }
-    @media screen and (max-width: 400px) {
-
-        .projectHero{
-            flex-direction: column;
-            width: 100%;
-            height: auto;
-    
-        }
-        .projectHero .projectTitle{
-            
-            width: 100%;
-            
-        }
-    
-        .projectHero .projectAbout{
-          
-            width: 100%;
-            
-        }
-
-       
-    }
-    
     .projectImg{
         img{
             width: 100%;
@@ -124,7 +101,6 @@
         
     
     }
-
     .projectTeam{
         width: 100%;
         min-height: 675px;
@@ -198,21 +174,76 @@
 
       
     }
+    .moreProject{
+        display: flex;
+       
 
-    @media screen and (max-width: 400px){
+        .carousel-inner{
+            width: 100%;
+            
+            max-height: 300px;
+            display: flex;
+            border: 1px solid yellow;
+            justify-items: center;
+            flex-direction: column;
 
-        .projectTeam .team01  {
-           width:100%;
-           flex-direction: column;
+            .carrusel{
+            display: flex;
+            justify-items: center;
+
+                .image02{
+                
+              
+                    width: 50%;
+                    border: 1px solid rgb(18, 11, 135);
+    
+                    img{
+    
+                        justify-content: center;
+                        
+    
+    
+                    }
+    
+                
+                }
+
+            }
+
           
-       }
-       .projectTeam .team01 .card {
-        width:100%;
+
+            
+        }
+
+
+
+
     }
-   }
+    @media screen and (max-width: 400px) {
+
+        .projectHero{
+            flex-direction: column;
+            width: 100%;
+            height: auto;
     
-
-    
-
-
+        }
+        .projectHero .projectTitle{
+            
+            width: 100%;
+            
+        }
+        .projectHero .projectAbout{
+          
+            width: 100%;
+            
+        } 
+        .projectTeam .team01  {
+            width:100%;
+            flex-direction: column;
+           
+        }
+        .projectTeam .team01 .card {
+         width:100%;
+        }
+    }
 }
