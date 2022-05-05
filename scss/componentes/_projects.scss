@@ -30,6 +30,7 @@
                 margin-bottom: 10%;
                 
                 text-align: center;
+                @include tipogrfia ('Ubuntu', 46px, $grisSubtitle,bold,600);
             }
             
             

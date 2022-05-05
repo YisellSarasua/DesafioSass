@@ -6,12 +6,13 @@
     padding-right: 15%;
     height: auto;
     
-    h2{
+    title{
         padding-bottom: 20px;
         display: flex;
         height: 40%;
         align-items: center;
         justify-content: center;
+        @include tipogrfia ('Ubuntu',46px, $grisTitle,normal,700);
 
     }
     .contactItem{
