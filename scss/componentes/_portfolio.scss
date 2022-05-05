@@ -68,9 +68,10 @@
 }
 
 .portfolioProjects{
+    width: 100%;
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
     grid-auto-rows: minmax(300px , auto);
     
     gap: 5px;
@@ -79,6 +80,7 @@
     .big{
         grid-column: span 2;
         grid-row: span 2;
+       
     }
 
 
@@ -179,4 +181,42 @@
     width: 90%;
 
 }
+}
+
+@media screen and (max-width: 400px) {
+
+    .portfolioProjects {
+        width: 100%;
+        grid-template-columns: repeat(1, minmax(100%, 100%));
+        grid-auto-rows: minmax(300px , auto);
+
+         .big{
+            
+            grid-column: span 1;
+            grid-row: span 1;
+            
+        }
+
+         .small{
+            
+            grid-column: span 1;
+            grid-row: span 1;
+            
+        }
+
+        .p01{
+            width: 100%;
+        }
+
+
+
+    }
+
+
+  
+    
+
+   
+
+  
 }
